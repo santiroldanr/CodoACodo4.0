@@ -1,0 +1,59 @@
+*{
+    font-family: 'Righteous', cursive, sans-serif;
+    margin:0;
+    padding: 0;
+  }
+body {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: auto 1fr auto;
+    /* background: #F5EDDC; */
+  }
+    
+footer{
+    border-radius: 5px;
+    background: #CFD2CF;
+    padding: 1.5rem;
+    text-align: right;
+  }
+  
+/* h1 {
+    text-align: center;
+    color: white;
+} */
+
+/* input {
+    border-radius: 20px;
+    border-color: #A2B5BB;
+} */
+
+/* a {
+    color: blue;
+    background-color: lightblue;
+    text-decoration: none;
+    border-radius: 5px;
+    border: white solid 1px;
+    padding: 5px;
+} */
+
+
+
+.formulario {
+    border-radius: 5px;
+    background-color: #CFD2CF;
+    padding: 1rem;
+    margin: 10px 450px;
+    color: white;
+    font-weight: bold;
+}
+
+#boton{
+    text-align: right;
+    font-weight: bold;
+}
+
+#requerido{
+    font-size: 75%;
+    font-weight: normal;
+    font-style: italic;
+}
