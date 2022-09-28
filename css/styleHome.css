@@ -34,26 +34,51 @@ body {
     height: 100vh;
     grid-template-rows: auto 1fr auto;
     /* background: #F5EDDC; */
-  }
+}
     
 footer{
     border-radius: 5px;
     background: #CFD2CF;
     padding: 1.5rem;
     text-align: right;
-  }
-  
-  .slider-container {
+}
+
+html, body, main, .holster {
+    height: 100%;
+}
+
+.holster {
     display: flex;
-    width: 100%;
-    height: 50vh;
-    overflow-x: scroll
-    scroll-snap-type x mandatory;
-  }
-  
-  .slider-container img {
-    flex: 0 0 100%;
-    width: 100%;
-    object-fit: cover;
-    scroll-snap-align: center;
-  }
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+}
+
+.container {
+  display: flex;
+  overflow: auto;
+  flex: none;
+}
+
+.container.x {
+  width: 100%;
+  height: 250px;
+  flex-flow: row nowrap;
+}
+
+.x.proximity-scroll-snapping {
+  scroll-snap-type: x proximity;
+}
+
+.container > div {
+  text-align: center;
+  scroll-snap-align: center;
+  flex: none;
+}
+
+.x.container > div {
+  line-height: 128px;
+  font-size: 64px;
+  width: 100%;
+  height: 128px;
+}
