@@ -1,0 +1,45 @@
+*
+{
+    font-family: 'Righteous', cursive, sans-serif;
+    margin:0;
+    padding: 0;
+}
+
+main
+{
+    background-color: orange;
+    width: 100vw;
+    height: auto;
+}
+
+.tarjeta
+{
+    margin:  10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bandasYbares
+{
+    display: grid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.tarjetas
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.imagen-tarjetas
+{
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
