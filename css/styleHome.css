@@ -20,11 +20,6 @@
   grid-template-columns: repeat(auto-fit,minmax(360px, 2fr));
 }
 
-/* .grid-item{
-  display: grid;
-  grid-template-columns: 150px 1fr;
-} */
-
 .novedades{
   align-items: center;
 }
@@ -43,10 +38,6 @@ footer{
     text-align: right;
 }
 
-html, body, main, .holster {
-    height: 100%;
-}
-
 .holster {
     display: flex;
     align-items: center;
@@ -54,14 +45,16 @@ html, body, main, .holster {
     flex-flow: column nowrap;
 }
 
+/* quilombo */
+
 .container {
   display: flex;
   overflow: auto;
-  flex: none;
+  flex: row wrap;
 }
 
 .container.x {
-  width: 100%;
+  width: 80%;
   height: 250px;
   flex-flow: row nowrap;
 }
@@ -76,9 +69,9 @@ html, body, main, .holster {
   flex: none;
 }
 
-.x.container > div {
+/* .x.container > div {
   line-height: 128px;
   font-size: 64px;
-  width: 100%;
+  width: flex;
   height: 128px;
-}
+} */
