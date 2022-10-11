@@ -43,3 +43,21 @@ main
     width: 200px;
     margin: 10px;
 }
+
+@media (max-width: 1000px) {
+    .tarjetas
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .tarjeta
+    {
+        flex-direction: column;
+    }
+    
+}
+
+@media (max-width: 575px) {
+    
+}
+
