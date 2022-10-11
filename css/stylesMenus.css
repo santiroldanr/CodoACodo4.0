@@ -39,3 +39,10 @@ a {
 a:hover{
     color:F5EDDC;
 }
+
+footer{
+    border-radius: 5px;
+    background: #CFD2CF;
+    padding: 1.5rem;
+    text-align: right;
+}
