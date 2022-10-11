@@ -1,0 +1,41 @@
+*{
+    font-family: 'Righteous', cursive, sans-serif;
+}
+
+header{
+    display: flex;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #CFD2CF;
+    justify-content: space-between;
+    align-items: center;
+    /* margin:0rem 0rem 3rem 0rem; */
+    padding: 1rem;
+}
+
+header ul{
+    display: flex;  
+}
+
+header img{
+    border-radius: 50%;
+    /* padding: 0.5rem; */
+}
+
+li{
+    margin: 0.5rem;
+    border-radius: 10%;
+    background-color: #EB1D36;
+    padding: 0.5rem;
+    list-style-type: none;
+    
+}
+
+a {
+    text-decoration: none;
+    color:white
+}
+
+a:hover{
+    color:F5EDDC;
+}
