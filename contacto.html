@@ -25,7 +25,7 @@
        
         <main>
             <div class="formulario">
-                <form action="https://formspree.io/f/xyyvwajy" method="post">
+                <form onsubmit="return validar()" action="https://formspree.io/f/xyyvwajy" method="post">
                     <h2>Complete sus datos:</h2>
                     <br>
                     <label for="firstname">Nombre: </label> <input type="text" name="firstname" id="firstname"
@@ -45,7 +45,7 @@
                
                     <br><br>
                
-                    <label for="mail">Mail: </label> <input type="email" name="mail" id="mail"
+                    <label for="mail">Mail: </label> <input type="mail" name="mail" id="mail"
                         placeholder="ingrese su mail" >
                     <span id="requerido">*</span>
                 

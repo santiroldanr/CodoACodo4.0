@@ -1,10 +1,25 @@
-function valida_envia(){
-    if (document.formulario.firstname.value.length==0){
-           alert("Tiene que escribir su nombre")
-           document.formulario.firstname.focus()
-           return 0;
+
+function validar(){
+    var todo_correcto = true;
+      
+    if(document.getElementById("firstname").value.length < 2 ){
+        todo_correcto = false;
     }
- 
-   
-    alert("Muchas gracias por enviar el formulario");
-    document.formulario.submit();
+
+    if(document.getElementById("lasttname").value.length < 2 ){
+        todo_correcto = false;
+    }
+    
+    var expresion = /^[a-z][\w.-]+@\w[\w.-]+\.[\w.-]*[a-z][a-z]$/i;
+    var mail = document.form1.mail.value;
+    if (!expresion.test(mail)){
+        todo_correcto = false;
+    }
+
+    if(!todo_correcto){
+    alert('Algunos campos no están correctos, vuelva a revisarlos');
+    }
+    
+    return todo_correcto;
+    }
+    
