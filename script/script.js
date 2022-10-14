@@ -1,25 +1,36 @@
 
 function validar(){
-    var correcto = true;
-      
-    if(document.getElementById("firstname").value.length < 2 ){
-        correcto = false;
+    let nombreCorrecto = true;
+    let apellidoCorrecto = true;
+    let mailCorrecto = false;
+
+    let resultado = true;
+    
+    const nombre = document.getElementById("firstname");
+    const apellido =  document.getElementById("lastname");
+    const mail =    document.getElementById("mail");
+
+    if(nombre.length < 2 ){
+        nombreCorrecto = false;
     }
 
-    if(document.getElementById("lasttname").value.length < 2 ){
-        correcto = false;
+    if(apellido.length < 2 ){
+        apellidoCorrecto = false;
     }
     
-    var expresion = /^[a-z][\w.-]+@\w[\w.-]+\.[\w.-]*[a-z][a-z]$/i;
-    var mail = document.form1.mail.value;
-    if (!expresion.test(mail)){
-        correcto = false;
+    if (mail.includes("@")){
+        mailCorrecto = true
     }
 
-    if(!correcto){
-    alert("los capmpos no estan completos, reviselos");
+
+    if ((nombreCorrecto === true) && (apellidoCorrecto=== true) && (mailCorrecto=== true)) {
+        resultado = true
+        return resultado
+    } else if((nombreCorrecto === false) || (apellidoCorrecto=== false) || (mailCorrecto=== false)) {
+        alert("EL FORMULARIO ESTA MAL CARGADO")
+    } else {
+        resultado = false
+        return resultado
     }
-    
-    return correcto;
-    }
-    
+
+}
