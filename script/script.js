@@ -18,7 +18,7 @@ function validar(){
         apellidoCorrecto = false;
     }
     
-    if (mail.includes("@")){
+    if ("@" in mail){
         mailCorrecto = true
     }
 
