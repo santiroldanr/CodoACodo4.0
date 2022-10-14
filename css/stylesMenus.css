@@ -46,3 +46,26 @@ footer{
     padding: 1.5rem;
     text-align: right;
 }
+
+@media (max-width: 560px) { 
+    header{
+        display: block;
+    }
+    .menu-top
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    li
+    {
+        width: auto;
+        height: auto;
+        box-sizing: border-box;
+    }
+    a
+    {
+        align-content: center;
+    }
+
+}
