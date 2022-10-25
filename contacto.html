@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Contacto</title>
         <link rel="stylesheet" href="./css/stylesMenus.css">
-        <link rel="stylesheet" href="./css/contacto.css">
+        <link rel="stylesheet" href="./css/regis.css">
         <script src="https://kit.fontawesome.com/4b2ad02b9c.js" crossorigin="anonymous"></script>
         <style> @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap'); </style>
     </head>
@@ -23,50 +23,64 @@
         </header>
        
         <main>
+
             <div class="formulario">
+
                 <form onsubmit="validar()" action="https://formspree.io/f/xyyvwajy" method="post">
-                    <h2>Complete sus datos:</h2>
-                    <br>
-                    <label for="firstname">Nombre: </label> <input type="text" name="firstname" id="firstname"
-                        placeholder="Ingrese su nombre">
-                    <span id="requerido">*</span>
-                    
-                    <br><br>
-                    
-                    <label for="lastname">Apellido:</label> <input type="text" name="lastname" id="lastname"
-                        placeholder="Ingrese su apellido" >
-                    <span id="requerido">*</span>
-                
-                    <br><br>
-                
-                    <label for="telefono">Telefono:</label> <input type="tel" name="telefono" id="telefono"
-                        placeholder="ingrese su telefono">
-               
-                    <br><br>
-               
-                    <label for="mail">Mail: </label> <input type="mail" name="mail" id="mail"
-                        placeholder="ingrese su mail" >
-                    <span id="requerido">*</span>
-                
-                    <br><br>
-                
-                    <label>Comentarios: 
-                        <textarea name="coments" id="" cols="30" rows="10"></textarea>
-                    </label>
-                
-                    <br><br>
-                
-                    <span id="requerido">* Campos obligatorios</span>
 
-                    <br><br>
-
-                    <div id="boton">
-                        <input type="submit" value="Enviar">
-                        <input type="reset" value="Borrar datos">
+                <div class="box-root flex-flex flex-direction--column" style="min-height: 100vh;flex-grow: 1;">
+                 
+                  <div class="box-root padding-top--24 flex-flex flex-direction--column" style="flex-grow: 1; z-index: 9;">
+                    <div class="box-root padding-top--48 padding-bottom--24 flex-flex flex-justifyContent--center">
                     </div>
-                </form>
-            </div>
-            
+                    <div class="formbg-outer">
+                      <div class="formbg">
+                        <div class="formbg-inner padding-horizontal--48">
+                          <span class="padding-bottom--15">Complete sus datos</span>
+                          <form id="stripe-login">
+                           
+                            <div class="field padding-bottom--24">
+                                <label for="firstname">Nombre</label> <input type="text" name="firstname" id="firstname">
+                                <div class="reque">
+                                    <a href="#">requerido</a>
+                                </div>
+                              
+                            </div>
+                            <div class="field padding-bottom--24">
+                                <label for="lastname">Apellido:</label> <input type="text" name="lastname" id="lastname">
+                                <div class="reque">
+                                    <a href="#">requerido</a>
+                                </div>
+                            </div>
+                            <div class="field padding-bottom--24">
+                                <label for="telefono">Telefono:</label> <input type="tel" name="telefono" id="telefono">
+                            </div>
+                            <div class="field padding-bottom--24">
+                              <label for="mail">Mail: </label> <input type="mail" name="mail" id="mail">
+                              <div class="reque">
+                                <a href="#">requerido</a>
+                            </div>
+                            </div>
+                            <div class="field padding-bottom--24">
+                                <textarea name="coments" id="" cols="30" rows="10"></textarea>
+                            </div>
+                    
+
+                            <div class="field padding-bottom--24">
+                              <input type="submit" name="submit" value="Aceptar">
+                            </div>
+
+                       
+                          </form>
+                          
+                        </div>
+                      </div>
+                  
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="listing padding-top--24 padding-bottom--24 flex-flex center-center">
         </main>
 
         <footer>

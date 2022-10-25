@@ -149,7 +149,15 @@
       font-weight: 600;
       margin: 0 10px;
   }
-  
+  .reque a,label {
+    font-size: 14px;
+    font-weight: 600;
+    display: block;
+}
+.reque > a {
+    text-align: right;
+    margin-bottom: 10px;
+}
 
   
  
