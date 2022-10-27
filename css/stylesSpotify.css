@@ -62,5 +62,11 @@
 
 .intro p
 {
-    color: red;
+    color:#EB1D36;
+    ;
 }
+
+.btn-primary {
+    color: #fff;
+    background-color:#EB1D36;
+    border-color: #EB1D36;
