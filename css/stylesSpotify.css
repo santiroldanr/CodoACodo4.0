@@ -71,3 +71,18 @@
     background-color:#EB1D36;
     border-color: #EB1D36;
 }
+
+header a {
+    text-decoration: none;
+    color:white
+}
+
+header a:hover{
+    background-color: #EB1D36;
+    padding: 8px;
+
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: 0s;
+    transition-timing-function: ease-in;
+}
