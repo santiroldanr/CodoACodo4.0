@@ -80,7 +80,7 @@ header a {
 header a:hover{
     background-color: #EB1D36;
     padding: 8px;
-
+    color: white;
     transition-property: all;
     transition-duration: 1s;
     transition-delay: 0s;
