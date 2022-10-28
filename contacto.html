@@ -27,7 +27,7 @@
 
             <div class="formulario">
 
-                <form onsubmit="validar()" action="https://formspree.io/f/xyyvwajy" method="post">
+                <form onsubmit="return validar()" action="https://formspree.io/f/xyyvwajy" method="post">
 
                 <div class="box-root flex-flex flex-direction--column" style="min-height: 100vh;flex-grow: 1;">
                  
@@ -48,7 +48,7 @@
                               
                             </div>
                             <div class="field padding-bottom--24">
-                                <label for="lastname">Apellido:</label> <input type="text" name="lastname" id="lastname">
+                                <label for="lastname">Apellido:</label> <input type="text" name="lastname" id="lastname" >
                                 <div class="reque">
                                     <a href="#">requerido</a>
                                 </div>

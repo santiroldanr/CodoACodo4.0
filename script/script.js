@@ -1,10 +1,10 @@
 
 function validar(){
-    // let nombreCorrecto = true;
-    // let apellidoCorrecto = true;
-    // let mailCorrecto = false;
+    let nombreCorrecto = true;
+    let apellidoCorrecto = true;
+    let mailCorrecto = false;
 
-    // let resultado = true;
+    let resultado = true;
     
     const nombre = document.getElementById("firstname").value;
     const apellido =  document.getElementById("lastname").value;
@@ -21,10 +21,6 @@ function validar(){
     if (mail.includes("@")){
         mailCorrecto = true
     }
-console.log (nombre)
-console.log (apellido)
-console.log (mail)
-
 
     if ((nombreCorrecto === true) && (apellidoCorrecto === true) && (mailCorrecto === true)) {
         resultado = true
