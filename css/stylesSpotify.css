@@ -86,3 +86,16 @@ header a:hover{
     transition-delay: 0s;
     transition-timing-function: ease-in;
 }
+
+.aviso
+{
+    border: solid red 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.autorizar
+{
+    display: none;
+}
