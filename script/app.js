@@ -2,8 +2,8 @@
 var redirect_uri = "http://127.0.0.1:5500/spotify.html";
  
 
-var client_id = ""; 
-var client_secret = ""; // In a real app you should not expose your client_secret to the user
+var client_id = "38f09e16400041909c2f38fd046dfb39"; 
+var client_secret = "6c31f207a4e9428f832f7bed3ea22fd1"; // In a real app you should not expose your client_secret to the user
 
 var access_token = null;
 var refresh_token = null;
