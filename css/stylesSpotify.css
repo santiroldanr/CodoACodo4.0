@@ -90,3 +90,19 @@ header a:hover{
     justify-content: center;
 }
 
+#clientId , #clientSecret
+{
+    display: none;
+}
+
+.col-autorizar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#requestAuth
+{
+    background-color: green;
+}
