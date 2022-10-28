@@ -1,9 +1,8 @@
-//var redirect_uri = "https://makeratplay.github.io/SpotifyWebAPI/"; // change this your value
 var redirect_uri = "https://santiroldanr.github.io/CodoACodo4.0/spotify.html";
  
 
-var client_id = "38f09e16400041909c2f38fd046dfb39"; 
-var client_secret = "70b34d8cf4b0452f98d96f83656365d5"; // In a real app you should not expose your client_secret to the user
+var client_id = ""; 
+var client_secret = ""; // In a real app you should not expose your client_secret to the user
 
 var access_token = null;
 var refresh_token = null;
